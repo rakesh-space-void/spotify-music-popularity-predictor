@@ -1,0 +1,32 @@
+
+# Python environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
